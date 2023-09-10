@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main() {
-  std::cout << "Hello World!\n";
+  string in;
+  int k;
+  getline(cin, in);
+  cin >> k;
+  cout << in << endl;
 }
